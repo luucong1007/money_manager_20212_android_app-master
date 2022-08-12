@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="vn.lvc.quanlychitieu">
+
+    <application
+        tools:replace="android:icon"
+        android:allowBackup="true"
+        android:icon="@drawable/ic_logo"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/ic_logo"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+
+        <activity android:name="vn.lvc.quanlychitieu.ThemLoaiChiActivity" android:screenOrientation="portrait"/>
+        <activity android:name="vn.lvc.quanlychitieu.ListLoaiChiActivity" android:screenOrientation="portrait" />
+        <activity android:name="vn.lvc.quanlychitieu.ChiTieuActivity" android:screenOrientation="portrait" />
+        <activity android:name="vn.lvc.quanlychitieu.TimKiemActivity"  android:screenOrientation="portrait"/>
+        <activity android:name="vn.lvc.quanlychitieu.SplashScreenActivity" android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="vn.lvc.quanlychitieu.ThemLoaiThuActivity" android:screenOrientation="portrait"/>
+        <activity android:name="vn.lvc.quanlychitieu.ListLoaiThuActivity" android:screenOrientation="portrait"/>
+        <activity android:name="vn.lvc.quanlychitieu.ThuNhapActivity" android:screenOrientation="portrait"/>
+        <activity android:name="vn.lvc.quanlychitieu.MainActivity" android:screenOrientation="portrait"/>
+    </application>
+
+</manifest>
